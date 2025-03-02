@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0px auto;
+}
+body{
+    background-color:#F3D7B7;
+    
+}
+header{
+   padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0px;
+    
+    }
+.div nav ul{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.div nav ul li a{
+   text-decoration: none;
+   color: black;
+}
+.hero{
+    background-color: #F3D7B7;
+    padding: 130px 0px;
+    
+}
+.hero .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 110px;
+}
+
+.btn{
+    width: 193;
+height: 51;
+top: 492px;
+left: 50px;
+border-radius: 100px;
+padding-top: 16px;
+padding-right: 24px;
+padding-bottom: 16px;
+padding-left: 24px;
+gap: 10px;
+color: white;
+background: #0A775F;
+border: none;
+}
+.hero p{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+width: 464px;
+margin: 47px 0;
+}
+.katta-rasm{
+    width: 610px;
+}
+.hero-img{
+    position: relative;
+}
+.kichik-rasm{
+    position: absolute;
+    right: -180px;
+    bottom: 300px;
+    left: 650px;
+    animation: aylan 5s infinite linear;
+    
+}
+@keyframes aylan{
+    from{
+   transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.ozo{
+    background-color: white;
+}
+.container h1{
+padding-top: 40px;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 50px;
+line-height: 58.59px;
+letter-spacing: 0px;
+text-align: center;
+color: black;
+}
+
+
+.nma{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.card h2{
+margin-bottom:20px ;
+font-weight: 500;
+font-size: 48px;
+line-height: 56.25px;
+letter-spacing: 0px;
+
+}
+.card p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+letter-spacing: 0px;
+
+}
+.nma img:hover{
+    transform: scale(1.5);
+}
+.nmaa img:hover{
+    transform: scale(1.5);
+}
+.nma img{
+    transition: 2s;
+}
+
+footer{
+padding-top: 30px;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   gap: 400px;
+   margin-bottom: 50px;
+}
+.h6{
+    display: flex;
+    gap: 20px;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 20px;
+line-height: 18.75px;
+letter-spacing: 1px;
+text-align: center;
+color: #333333;
+
+
+}
+.rasm{
+    display: flex;
+    gap: 20px;
+}
+.nmaa{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   padding-bottom: 70px;
+}
+.nmaa img{
+    transition: 2s;
+}
+
+
+
+
